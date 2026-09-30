@@ -1,0 +1,170 @@
+Create a file named PROJECT_CONTEXT.md in the current nova project.
+
+This file is the permanent context and development log for the Nova project.
+Before making major changes, read this file first and keep it updated when the project state changes.
+
+# NOVA PROJECT
+
+## 1. What is Nova?
+
+Nova is my personal life, study, and productivity assistant.
+
+The long-term goal is to build a personal AI agent that understands my schedule, deadlines, meetings, important tasks, school activities, projects, and personal goals.
+
+Nova should eventually help me answer:
+- What do I have today?
+- What deadlines are coming?
+- What is important this week?
+- What should I work on first?
+- Did I miss anything?
+- What meetings or appointments do I have?
+
+## 2. Core Idea
+
+Nova should combine information from different sources into one place:
+
+- University LMS
+- Assignments and deadlines
+- Exams
+- Meetings
+- Important personal tasks
+- Projects
+- Appointments
+- Reminders
+- Future calendar integrations
+
+The most important long-term feature is automatically collecting important deadlines and events instead of requiring me to manually enter everything.
+
+## 3. University LMS
+
+The university LMS is an important future data source.
+
+Nova should eventually be able to:
+1. Connect to the university LMS
+2. Read assignments, exams, announcements, and deadlines
+3. Extract important dates
+4. Save them into Nova
+5. Notify me before deadlines
+
+For the first version, LMS integration does NOT need to be fully automated.
+
+Build the architecture so LMS integration can be added later.
+
+## 4. Nova V1 Goal
+
+The first working version should be simple and reliable.
+
+V1 should support:
+
+- Add task
+- Add assignment
+- Add meeting
+- Add exam
+- Add important event
+- Set date and time
+- Set deadline
+- Set priority
+- Mark completed
+- Edit
+- Delete
+- View today's schedule
+- View upcoming deadlines
+- View weekly schedule
+- Store data locally
+- Basic reminder/notification architecture
+
+Do not over-engineer V1.
+
+## 5. Future Versions
+
+V2:
+- University LMS integration
+- Automatic deadline collection
+- Calendar integration
+- Better notifications
+- Recurring events
+
+V3:
+- AI assistant
+- Natural language commands
+- "What do I have tomorrow?"
+- "What are my most urgent deadlines?"
+- "Add a meeting tomorrow at 3 PM."
+- Automatic prioritization
+- Personal knowledge/context system
+
+Long-term:
+Nova should become a personal AI agent/mentor that understands my study, software development learning, projects, career preparation, and daily schedule.
+
+## 6. Current Development Stage
+
+CURRENT STAGE: Environment setup / before V1 implementation.
+
+Completed:
+- MacBook Air M1 development environment
+- Homebrew installed
+- Flutter installed
+- Flutter 3.47.5 installed
+- Node.js installed
+- npm installed
+- OpenAI Codex CLI installed
+- Chrome installed
+- Project folder created
+
+Current project location:
+Project/nova
+
+Current folder is ready for development.
+
+Important:
+- Xcode setup is still being completed for iOS development.
+- Android development is not the current priority.
+- Chrome is installed but web development is not the main priority.
+- The immediate goal is to build Nova V1 for iPhone using Flutter.
+
+## 7. Development Philosophy
+
+I am learning while building this project.
+
+Do not blindly generate huge amounts of code without explanation.
+
+Prefer:
+- Small steps
+- Clean architecture
+- Simple code
+- Explain important decisions
+- Let me understand what is being built
+- Test each major step
+- Avoid unnecessary dependencies
+
+However, repetitive boilerplate can be generated automatically.
+
+## 8. Coding Preferences
+
+- Flutter/Dart for the mobile application.
+- Keep the architecture simple.
+- Prefer maintainable folder structure.
+- Use local storage for V1.
+- Keep future LMS/API/AI integrations modular.
+- Do not build unnecessary features before V1 works.
+
+## 9. Current Immediate Task
+
+First:
+1. Confirm the project environment.
+2. Create the Flutter project structure.
+3. Build the basic Nova V1 UI.
+4. Implement tasks/events/deadlines.
+5. Add local persistence.
+6. Run and test the application.
+7. Only after the basic V1 works, begin LMS integration planning.
+
+Do not start LMS scraping/login automation immediately.
+
+## 10. Important Rule
+
+Nova is a long-term project.
+
+When making changes, preserve existing functionality and update this PROJECT_CONTEXT.md when the project reaches an important new stage.
+
+Always prioritize a working simple version over unnecessary complexity.
